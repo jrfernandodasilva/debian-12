@@ -90,3 +90,31 @@ Run this commant to force enable `Overscroll history navigation`:
 sudo sed -ie 's/Exec=\/usr\/bin\/google-chrome-stable %U/Exec=\/usr\/bin\/google-chrome-stable %U --enable-features=TouchpadOverscrollHistoryNavigation/g' /usr/share/applications/google-chrome.desktop
 ```
 > then restart Chrome browser to enable this config
+
+## 9. ZSH and Oh My Zsh
+
+### Install ZSH
+```bash
+sudo apt install zsh -y
+```
+### ZSH Autocomplete
+```bash
+zsh
+autoload -Uz compinit
+compinit
+_comp_options+=(globdots)
+```
+
+### Set as default system interpreter commands
+```bash
+chsh -s $(which zsh)
+```
+
+>To rollback `chsh -s /bin/bash`
+
+Then close and reopen terminal to apply changes.
+
+### Install Oh My Zsh 
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
