@@ -69,7 +69,7 @@ Access chrome flags with this url [chrome://flags/](chrome://flags/) and enable 
 - Preferred Ozone platform (set `Wayland`)
 ![image](https://github.com/jrfernandodasilva/debian-12/assets/27747005/077bdec7-3bc2-41cd-96d5-df7f6a06df30)
 
-Run this commant to force enable `Overscroll history navigation`
+Run this commant to force enable `Overscroll history navigation`:
 ```bash
 sudo sed -ie 's/Exec=\/usr\/bin\/google-chrome-stable %U/Exec=\/usr\/bin\/google-chrome-stable %U --enable-features=TouchpadOverscrollHistoryNavigation/g' /usr/share/applications/google-chrome.desktop
 ```
