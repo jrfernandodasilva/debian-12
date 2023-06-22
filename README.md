@@ -118,3 +118,58 @@ Then close and reopen terminal to apply changes.
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
+### Oh My Zsh - Plugins
+Oh My Zsh plugins make it possible to add extra functionality to your shell. There are numerous existing plugins, to check all the possibilities, take a look at the [repository Wiki](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins). Check out some of these special plugins below.
+
+#### Plugin zsh-syntax-highlighting
+```bash
+cd ~
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+#### Plugin zsh-autosuggestions
+```bash
+cd ~
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+#### Plugin fzf
+```bash
+cd ~
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
+```
+
+#### Enable plugins
+
+```bash
+nano ~/.zshrc
+```
+
+and edit `plugins` to this:
+```bash
+plugins=(
+  git
+  zsh-syntax-highlighting
+  zsh-autosuggestions
+  fzf
+)
+````
+
+#### Theme
+
+```bash
+nano ~/.zshrc
+```
+
+Find `ZSH_THEME = “robbyrussell”` and, for example, change to:
+```bash
+ZSH_THEME = “agnoster”
+````
+
+Then run:
+```bash
+source ~/.zshrc
+```
+
+to load new config.
