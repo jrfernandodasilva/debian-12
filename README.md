@@ -54,3 +54,22 @@ sudo apt install -y terminator htop
 ```bash
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
 ```
+
+## 6. Complementary softwares
+- Docker + Docker Compose - [Install instructions](https://docs.docker.com/engine/install/debian/#set-up-the-repository) - [Post install instructions](https://docs.docker.com/engine/install/linux-postinstall/)
+- VSCode - [Download page](https://code.visualstudio.com/download)
+- Discord - [Home to download](https://discord.com)
+- Skype - [Download page](https://www.skype.com/pt-br/get-skype/)
+- Chrome - [Home to download](https://www.google.com/intl/pt-BR/chrome/)
+
+## 7. Chrome Flags
+Access chrome flags with this url [chrome://flags/](chrome://flags/) and enable this:
+- GPU rasterization
+- Overscroll history navigation
+- Preferred Ozone platform (set `Wayland`)
+![image](https://github.com/jrfernandodasilva/debian-12/assets/27747005/077bdec7-3bc2-41cd-96d5-df7f6a06df30)
+
+Run this commant to force enable `Overscroll history navigation`
+```bash
+sudo sed -ie 's/Exec=\/usr\/bin\/google-chrome-stable %U/Exec=\/usr\/bin\/google-chrome-stable %U --enable-features=TouchpadOverscrollHistoryNavigation/g' /usr/share/applications/google-chrome.desktop
+```
