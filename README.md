@@ -73,3 +73,4 @@ Run this commant to force enable `Overscroll history navigation`:
 ```bash
 sudo sed -ie 's/Exec=\/usr\/bin\/google-chrome-stable %U/Exec=\/usr\/bin\/google-chrome-stable %U --enable-features=TouchpadOverscrollHistoryNavigation/g' /usr/share/applications/google-chrome.desktop
 ```
+> then restart Chrome browser to enable this config
