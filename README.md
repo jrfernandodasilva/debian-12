@@ -124,19 +124,16 @@ Oh My Zsh plugins make it possible to add extra functionality to your shell. The
 
 #### Plugin zsh-syntax-highlighting
 ```bash
-cd ~
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
 #### Plugin zsh-autosuggestions
 ```bash
-cd ~
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
 #### Plugin fzf
 ```bash
-cd ~
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 ```
 
@@ -156,15 +153,23 @@ plugins=(
 )
 ````
 
-#### Theme
+#### Install Powerlevel10k Theme
+```bash
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k 
+````
+
+#### Chante Theme
 
 ```bash
 nano ~/.zshrc
 ```
 
-Find `ZSH_THEME = “robbyrussell”` and, for example, change to:
+Find `ZSH_THEME="robbyrussell"` and change to:
 ```bash
-ZSH_THEME = “agnoster”
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+#powerlevel19k configuration
+POWERLEVEL9K_MODE='awesome-fontconfig'
 ````
 
 Then run:
