@@ -228,4 +228,6 @@ to load new config.
 - [.p10k.zsh](https://github.com/jrfernandodasilva/debian-12/blob/main/.p10k.zsh) file example
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k) repository
 - [Medium Tutorial](https://medium.com/opensanca/personalizando-o-terminal-com-powerlevel10k-6c2609360a55)
-- [Config files](https://gist.github.com/andrelugomes/29096774a35c7d9d4d787e1583aaafad#file-p10k-zsh) example- 
+- [Config files](https://gist.github.com/andrelugomes/29096774a35c7d9d4d787e1583aaafad#file-p10k-zsh) example
+- [Plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
+  
