@@ -60,25 +60,59 @@ Links:
 - [Desktop Drivers](https://wiki.debian.org/NvidiaGraphicsDrivers#Desktop_Drivers)
 - [Bookworm-525](https://wiki.debian.org/NvidiaGraphicsDrivers#bookworm-525)
 
-
 ## 5. Install programs
 ```bash
-sudo apt install -y terminator htop
+sudo apt install -y terminator htop apache2
 ```
 
-## 6. Enable syntax highlighting in nano
+## 6. Install VPN Plugin
+```bash
+sudo apt install openvpn
+sudo apt install network-manager-openvpn
+```
+
+## 7. Git install and configs
+
+### Install Git, Git Flow and Gitk
+```bash
+sudo apt install -y git git-flow gitk
+```
+
+### Configure your Git username/email globally
+```bash
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "MY_NAME@example.com"
+```
+
+### Enable multiples hotfix globally
+```bash
+git config --global gitflow.multi-hotfix true
+```
+
+### Disable TAG on finish hotfix globally
+```bash
+git config --global gitflow.hotfix.finish.notag true
+```
+
+### Disable automatic conversion of line endings
+```bash
+cd /var/www
+git config --global core.autocrlf false
+```
+
+## 8. Enable syntax highlighting in nano
 ```bash
 find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
 ```
 
-## 7. Complementary softwares
+## 9. Complementary softwares
 - Docker + Docker Compose - [Install instructions](https://docs.docker.com/engine/install/debian/#set-up-the-repository) - [Post install instructions](https://docs.docker.com/engine/install/linux-postinstall/)
 - VSCode - [Download page](https://code.visualstudio.com/download)
 - Discord - [Home to download](https://discord.com)
 - Skype - [Download page](https://www.skype.com/pt-br/get-skype/)
 - Chrome - [Home to download](https://www.google.com/intl/pt-BR/chrome/)
 
-## 8. Chrome Flags
+## 10. Chrome Flags
 Access chrome flags with this url [chrome://flags/](chrome://flags/) and enable this:
 - GPU rasterization
 - Overscroll history navigation
@@ -91,7 +125,7 @@ sudo sed -ie 's/Exec=\/usr\/bin\/google-chrome-stable %U/Exec=\/usr\/bin\/google
 ```
 > then restart Chrome browser to enable this config
 
-## 9. ZSH and Oh My Zsh
+## 11. ZSH and Oh My Zsh
 
 ### Install ZSH
 ```bash
