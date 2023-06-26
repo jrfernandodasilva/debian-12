@@ -62,7 +62,7 @@ Links:
 
 ## 5. Install programs
 ```bash
-sudo apt install -y terminator htop apache2 xclip
+sudo apt install -y terminator htop apache2 xclip snapd
 ```
 
 ## 6. Install VPN Plugin
@@ -111,6 +111,7 @@ find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
 - Discord - [Home to download](https://discord.com)
 - Skype - [Download page](https://www.skype.com/pt-br/get-skype/)
 - Chrome - [Home to download](https://www.google.com/intl/pt-BR/chrome/)
+- MySQL Workbench via snapd - [2 ways to Install Mysql Workbench](https://linux.how2shout.com/2-ways-to-install-mysql-workbench-on-debian-11-bullseye-linux/#5_To_Uninstall_run)
 
 ## 10. Chrome Flags
 Access chrome flags with this url [chrome://flags/](chrome://flags/) and enable this:
