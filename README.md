@@ -62,7 +62,7 @@ Links:
 
 ## 5. Install programs
 ```bash
-sudo apt install -y terminator htop apache2
+sudo apt install -y terminator htop apache2 xclip
 ```
 
 ## 6. Install VPN Plugin
@@ -187,6 +187,14 @@ plugins=(
 )
 ````
 
+#### Install fonts by script:
+```bash
+cd /tmp
+curl -LO https://raw.githubusercontent.com/jrfernandodasilva/debian-12/main/oh-my-zsh.sh
+chmod +x oh-my-zsh.sh 
+ ./oh-my-zsh.sh  
+```
+
 #### Install Powerlevel10k Theme
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k 
@@ -212,3 +220,11 @@ source ~/.zshrc
 ```
 
 to load new config.
+
+#### See
+
+- [.zshrc](https://github.com/jrfernandodasilva/debian-12/blob/main/.zshrc) file example
+- [.p10k.zsh](https://github.com/jrfernandodasilva/debian-12/blob/main/.p10k.zsh) file example
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k) repository
+- [Medium Tutorial](https://medium.com/opensanca/personalizando-o-terminal-com-powerlevel10k-6c2609360a55)
+- [Config files](https://gist.github.com/andrelugomes/29096774a35c7d9d4d787e1583aaafad#file-p10k-zsh) example- 
