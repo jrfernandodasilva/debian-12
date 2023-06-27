@@ -231,3 +231,6 @@ to load new config.
 - [Config files](https://gist.github.com/andrelugomes/29096774a35c7d9d4d787e1583aaafad#file-p10k-zsh) example
 - [Plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
   
+## 12. Install nvm
+
+See repository instructions to install: [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
