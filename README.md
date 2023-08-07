@@ -235,3 +235,18 @@ to load new config.
 ## 12. Install nvm
 
 See repository instructions to install: [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
+
+## 13. Configure snap apps to show in xorg (If Necessary)
+```bash
+sudo ln -s /etc/profile.d/apps-bin-path.sh /etc/X11/Xsession.d/99snap
+sudo nano /etc/login.defs
+
+# Paste the following at the end of the file and save:
+ENV_PATH PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+
+# Log out and log in again to your system
+```
+
+## 14. Emby
+
+[See instructions here](https://emby.media/linux-server.html)
