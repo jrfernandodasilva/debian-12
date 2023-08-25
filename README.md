@@ -253,3 +253,6 @@ ENV_PATH PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap
 
 ## 15. Zram
 [See instructions here](https://linuxdicasesuporte.blogspot.com/2022/03/zram-no-debian-gnu-linux-e-derivados.html) or [here](https://fosspost.org/enable-zram-on-linux-better-system-performance/)
+
+### Links uteis
+- [How to find notebook serial number](https://www.cyberciti.biz/faq/how-to-find-serial-number-of-lenovo-laptop-from-linux)
