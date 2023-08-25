@@ -250,3 +250,6 @@ ENV_PATH PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap
 ## 14. Emby
 
 [See instructions here](https://emby.media/linux-server.html)
+
+## 15. Zram
+[See instructions here](https://linuxdicasesuporte.blogspot.com/2022/03/zram-no-debian-gnu-linux-e-derivados.html) or [here](https://fosspost.org/enable-zram-on-linux-better-system-performance/)
