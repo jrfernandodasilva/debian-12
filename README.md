@@ -62,7 +62,7 @@ Links:
 
 ## 5. Install programs
 ```bash
-sudo apt install -y terminator htop apache2 xclip snapd chromium flameshot pngquant
+sudo apt install -y terminator htop apache2 xclip snapd chromium flameshot pngquant curl wget
 ```
 
 ## 6. Install VPN Plugin
@@ -113,6 +113,7 @@ find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
 - Chrome - [Home to download](https://www.google.com/intl/pt-BR/chrome/)
 - MySQL Workbench via snapd - [2 ways to Install Mysql Workbench](https://linux.how2shout.com/2-ways-to-install-mysql-workbench-on-debian-11-bullseye-linux/#5_To_Uninstall_run)
 - Pinta via snapd - [Install Pinta on Debian](https://snapcraft.io/install/pinta/debian)
+- Postman via snapd - [Install Postman on Debian](https://snapcraft.io/install/postman/debian)
 
 ## 10. Chrome Flags
 Access chrome flags with this url [chrome://flags/](chrome://flags/) and enable this:
