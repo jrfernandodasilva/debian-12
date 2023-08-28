@@ -115,7 +115,21 @@ find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
 - Pinta via snapd - [Install Pinta on Debian](https://snapcraft.io/install/pinta/debian)
 - Postman via snapd - [Install Postman on Debian](https://snapcraft.io/install/postman/debian)
 
-## 10. Chrome Flags
+## 10. Configure snap apps to show in xorg (If Necessary)
+```bash
+sudo ln -s /etc/profile.d/apps-bin-path.sh /etc/X11/Xsession.d/99snap
+sudo nano /etc/login.defs
+
+# Paste the following at the end of the file and save:
+ENV_PATH PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+
+# Log out and log in again to your system
+```
+## 11. Install nvm
+
+See repository instructions to install: [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
+
+## 12. Chrome Flags
 Access chrome flags with this url [chrome://flags/](chrome://flags/) and enable this:
 - GPU rasterization
 - Overscroll history navigation
@@ -128,7 +142,7 @@ sudo sed -ie 's/Exec=\/usr\/bin\/google-chrome-stable %U/Exec=\/usr\/bin\/google
 ```
 > then restart Chrome browser to enable this config
 
-## 11. ZSH and Oh My Zsh
+## 13. ZSH and Oh My Zsh
 
 ### Install ZSH
 ```bash
@@ -233,21 +247,6 @@ to load new config.
 - [Config files](https://gist.github.com/andrelugomes/29096774a35c7d9d4d787e1583aaafad#file-p10k-zsh) example
 - [Plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
   
-## 12. Install nvm
-
-See repository instructions to install: [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
-
-## 13. Configure snap apps to show in xorg (If Necessary)
-```bash
-sudo ln -s /etc/profile.d/apps-bin-path.sh /etc/X11/Xsession.d/99snap
-sudo nano /etc/login.defs
-
-# Paste the following at the end of the file and save:
-ENV_PATH PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
-
-# Log out and log in again to your system
-```
-
 ## 14. Emby
 
 [See instructions here](https://emby.media/linux-server.html)
