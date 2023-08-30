@@ -87,6 +87,7 @@ plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   fzf
+  zsh-completions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -125,3 +126,6 @@ source $ZSH/oh-my-zsh.sh
 if [ -e $HOME/.bash_aliases ]; then
     source $HOME/.bash_aliases
 fi
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
