@@ -247,11 +247,15 @@ to load new config.
 - [Config files](https://gist.github.com/andrelugomes/29096774a35c7d9d4d787e1583aaafad#file-p10k-zsh) example
 - [Plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
   
-## 14. Emby
+## 14. Bash Aliases
+
+Follow the instructions in [this repository](https://github.com/jrfernandodasilva/bash-aliases)
+
+## 15. Emby
 
 [See instructions here](https://emby.media/linux-server.html)
 
-## 15. Zram
+## 16. Zram
 [See instructions here](https://linuxdicasesuporte.blogspot.com/2022/03/zram-no-debian-gnu-linux-e-derivados.html) or [here](https://fosspost.org/enable-zram-on-linux-better-system-performance/)
 
 ### Links uteis
