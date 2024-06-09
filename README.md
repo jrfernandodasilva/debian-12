@@ -62,7 +62,7 @@ Links:
 
 ## 5. Install programs
 ```bash
-sudo apt install -y terminator htop apache2 xclip snapd chromium flameshot pngquant curl wget
+sudo apt install -y terminator htop apache2 xclip snapd chromium flameshot pngquant curl wget tree
 ```
 
 ## 6. Install VPN Plugin
