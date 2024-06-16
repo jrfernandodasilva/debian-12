@@ -258,7 +258,7 @@ Follow the instructions in [this repository](https://github.com/jrfernandodasilv
 After install, run this command to add your system user to emby group:
 ```sh
 sudo usermod -aG emby $USER 
-``
+```
 
 ## 16. Zram
 [See instructions here](https://linuxdicasesuporte.blogspot.com/2022/03/zram-no-debian-gnu-linux-e-derivados.html) or [here](https://fosspost.org/enable-zram-on-linux-better-system-performance/)
