@@ -1,5 +1,15 @@
 # Debian 12
 
+[![License](https://img.shields.io/github/license/jrfernandodasilva/debian-12.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat&logo=debian&logoColor=white)](https://www.debian.org/)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=white)](https://www.linux.org/)
+[![Shell](https://img.shields.io/badge/Shell-5391FE?style=flat&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
+[![Downloads](https://img.shields.io/github/downloads/jrfernandodasilva/golang-roadmap/total.svg?v1)](https://github.com/jrfernandodasilva/golang-roadmap/releases)
+[![Contributors](https://img.shields.io/github/contributors/jrfernandodasilva/debian-12.svg)](https://github.com/jrfernandodasilva/debian-12/graphs/contributors)
+[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://github.com/jrfernandodasilva/debian-12/wiki)
+[![Last Update](https://img.shields.io/github/last-commit/jrfernandodasilva/debian-12.svg)](https://github.com/jrfernandodasilva/debian-12/commits/main)
+
 ## 1. Add user to sudores
 >save current user in a temp file and log as root user
 ```bash
