@@ -273,5 +273,54 @@ sudo usermod -aG emby $USER
 ## 16. Zram
 [See instructions here](https://linuxdicasesuporte.blogspot.com/2022/03/zram-no-debian-gnu-linux-e-derivados.html) or [here](https://fosspost.org/enable-zram-on-linux-better-system-performance/)
 
+## 17. Youtube Download (`yt-dlp`)
+
+Download and install from [official repository](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#installation)
+
+The `yt-dlp` is an advanced CLI tool based on youtube-dl that allows you to download videos and audio from various platforms. Here are some useful combinations of options available:
+
+#### Download Videos
+1. **Specific quality:**
+    - `-f bestvideo+bestaudio/best`: Downloads the best available video and audio, or the best combined format if the former is not available.
+    - `-f 720p`: Downloads video in 720p, if available.
+
+2. **Extract audio:**
+    - `--extract-audio --audio-format mp3`: Extracts audio in MP3 format.
+    - `--audio-quality 0`: Sets the audio quality (0 is the best quality).
+
+3. **Playlist:**
+    - `--yes-playlist`: Downloads all videos in the playlist.
+    - `--playlist-start 10 --playlist-end 20`: Downloads videos from a specific position.
+
+#### Output Settings
+4. **Output Templates**:
+    - `-o "%(title)s.%(ext)s"`: Sets the file name to the video title.
+    - `-o "~/Downloads/%(uploader)s/%(title)s.%(ext)s"`: Saves files organized in folders based on the channel name.
+
+5. **Prevent Duplicate Downloads**:
+    - `--download-archive archive.txt`: Creates an archive to track previously downloaded videos and avoid duplication.
+
+#### Integrations and Control
+
+6. **Cookies and authentication**:
+    - `--cookies-from-browser chrome`: Uses browser cookies to access restricted content.
+    - `--username USER --password PASS`: Direct authentication.
+
+7. **Video part manipulation (SponsorBlock)**:
+    - `--sponsorblock-mark intro`: Marks intros using chapters.
+    - `--sponsorblock-remove sponsor`: Removes specific parts as sponsors.
+
+8. **Error resolution**:
+    - `--ignore-errors`: Ignores errors and continues downloading.
+    - `--retries infinite`: Retries downloading infinitely if there are failures.
+
+These are just a few options. The `yt-dlp` offers a lot of flexibility and is highly configurable. <br/> 
+For more details, you can refer to the [official documentation](https://github.com/yt-dlp/yt-dlp) and [related gists​](https://gist.github.com)
+
+> Usage Example
+> ```sh
+> yt-dlp --audio-quality 0 --extract-audio --audio-format mp3 https://youtu.be/xxxxxx
+> ```
+
 ### Links uteis
 - [How to find notebook serial number](https://www.cyberciti.biz/faq/how-to-find-serial-number-of-lenovo-laptop-from-linux)
