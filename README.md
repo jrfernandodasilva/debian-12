@@ -83,11 +83,13 @@ sudo apt install bash-completion
 ##### To bash:
 ```bash
 echo "source <(kubectl completion bash)" >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ##### To Zsh:
 ```bash
 echo "source <(kubectl completion zsh)" >> ~/.bashrc
+source ~/.zshrc
 ```
 
 ## 6. Install VPN Plugin
