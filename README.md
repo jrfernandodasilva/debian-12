@@ -75,6 +75,21 @@ Links:
 sudo apt install -y terminator htop apache2 xclip snapd chromium flameshot pngquant curl wget tree deluge
 ```
 
+### 5.1 Install bash-completion
+```bash
+sudo apt install bash-completion
+```
+#### Permanently enable
+##### To bash:
+```bash
+echo "source <(kubectl completion bash)" >> ~/.bashrc
+```
+
+##### To Zsh:
+```bash
+echo "source <(kubectl completion zsh)" >> ~/.bashrc
+```
+
 ## 6. Install VPN Plugin
 ```bash
 sudo apt install openvpn
