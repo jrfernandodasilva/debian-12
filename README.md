@@ -141,6 +141,8 @@ find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
 - MySQL Workbench via snapd - [2 ways to Install Mysql Workbench](https://linux.how2shout.com/2-ways-to-install-mysql-workbench-on-debian-11-bullseye-linux/#5_To_Uninstall_run)
 - Pinta via snapd - [Install Pinta on Debian](https://snapcraft.io/install/pinta/debian)
 - Postman via snapd - [Install Postman on Debian](https://snapcraft.io/install/postman/debian)
+- kubectl - [Install and Set Up kubectl on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux)
+
 
 ## 10. Configure snap apps to show in xorg (If Necessary)
 ```bash
