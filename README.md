@@ -75,7 +75,10 @@ Links:
 sudo apt install -y terminator htop apache2 xclip snapd chromium flameshot pngquant curl wget tree deluge
 ```
 
-### 5.1 Install bash-completion
+### 5.1 Terminator Themes
+See instructions: https://github.com/EliverLara/terminator-themes
+
+### 5.2 Install bash-completion
 ```bash
 sudo apt install bash-completion
 ```
@@ -92,7 +95,7 @@ echo "source <(kubectl completion zsh)" >> ~/.bashrc
 source ~/.zshrc
 ```
 
-### 5.2 Gnome extension manager + extensions
+### 5.3 Gnome extension manager + extensions
 Install Extension Manager:
 ```bash
 sudo apt install gnome-shell-extension-manager
