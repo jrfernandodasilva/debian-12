@@ -92,6 +92,22 @@ echo "source <(kubectl completion zsh)" >> ~/.bashrc
 source ~/.zshrc
 ```
 
+### 5.2 Gnome extension manager + extensions
+Install Extension Manager:
+```bash
+sudo apt install gnome-shell-extension-manager
+```
+Open Extension Manager -> Browser. <br/>
+Search and install:
+- Clipboard Indicator
+- Coverflow Alt-Tab
+- Forge
+- Media Controls
+- Search Light
+- V-Shell (Vertial Workspaces)
+
+> Video with extensions configs: https://www.youtube.com/watch?v=IedxEbwpjfs
+
 ## 6. Install VPN Plugin
 ```bash
 sudo apt install openvpn
