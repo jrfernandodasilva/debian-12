@@ -307,7 +307,7 @@ to load new config.
 > ![image](https://github.com/user-attachments/assets/693d5fe3-9acf-4ab7-ba62-f55cb5cbe42b)
 
 > .p10k.zsh_v1 <br/>
-> 
+> ![image](https://github.com/user-attachments/assets/cca419dc-0489-4247-83b6-f84f27a7c77b)
 
 ## 14. Bash Aliases
 
