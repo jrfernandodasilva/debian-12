@@ -297,6 +297,7 @@ to load new config.
 
 - [.zshrc](https://github.com/jrfernandodasilva/debian-12/blob/main/.zshrc) file example
 - [.p10k.zsh](https://github.com/jrfernandodasilva/debian-12/blob/main/.p10k.zsh) file example
+- [.p10k.zsh_v1](https://github.com/jrfernandodasilva/debian-12/blob/main/.p10k.zsh_v1) file example
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k) repository
 - [Medium Tutorial](https://medium.com/opensanca/personalizando-o-terminal-com-powerlevel10k-6c2609360a55)
 - [Config files](https://gist.github.com/andrelugomes/29096774a35c7d9d4d787e1583aaafad#file-p10k-zsh) example
@@ -304,7 +305,10 @@ to load new config.
 
 > .p10k.zsh <br/>
 > ![image](https://github.com/user-attachments/assets/693d5fe3-9acf-4ab7-ba62-f55cb5cbe42b)
-  
+
+> .p10k.zsh_v1 <br/>
+> 
+
 ## 14. Bash Aliases
 
 Follow the instructions in [this repository](https://github.com/jrfernandodasilva/bash-aliases)
