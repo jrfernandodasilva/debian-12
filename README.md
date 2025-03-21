@@ -101,6 +101,7 @@ Open Extension Manager -> Browser. <br/>
 Search and install:
 - Clipboard Indicator
 - Coverflow Alt-Tab
+- GNOME Fuzzy App Search
 - Forge
 - Media Controls
 - Search Light
