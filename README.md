@@ -107,6 +107,7 @@ Search and install:
 - GNOME Fuzzy App Search
 - Forge
 - Media Controls
+- Dash to Dock|
 - V-Shell (Vertial Workspaces)
 - Search Light 
   > _needs: sudo apt install imagemagick_
