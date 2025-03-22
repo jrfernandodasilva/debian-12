@@ -78,24 +78,7 @@ sudo apt install -y terminator htop xclip snapd chromium flameshot pngquant curl
 ### 5.1 Terminator Themes
 See instructions: https://github.com/EliverLara/terminator-themes
 
-### 5.2 Install bash-completion
-```bash
-sudo apt install bash-completion
-```
-#### Permanently enable
-##### To bash:
-```bash
-echo "source <(kubectl completion bash)" >> ~/.bashrc
-source ~/.bashrc
-```
-
-##### To Zsh:
-```bash
-echo "source <(kubectl completion zsh)" >> ~/.bashrc
-source ~/.zshrc
-```
-
-### 5.3 Gnome extension manager + extensions
+### 5.2 Gnome extension manager + extensions
 Install Extension Manager:
 ```bash
 sudo apt install gnome-shell-extension-manager
@@ -165,6 +148,22 @@ find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
 - Postman via snapd - [Install Postman on Debian](https://snapcraft.io/install/postman/debian)
 - kubectl - [Install and Set Up kubectl on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux)
 
+### 9.1 Install bash-completion
+```bash
+sudo apt install bash-completion
+```
+#### Permanently enable
+##### To bash:
+```bash
+echo "source <(kubectl completion bash)" >> ~/.bashrc
+source ~/.bashrc
+```
+
+##### To Zsh:
+```bash
+echo "source <(kubectl completion zsh)" >> ~/.bashrc
+source ~/.zshrc
+```
 
 ## 10. Configure snap apps to show in xorg (If Necessary)
 ```bash
