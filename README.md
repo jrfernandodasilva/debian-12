@@ -72,7 +72,7 @@ Links:
 
 ## 5. Install programs
 ```bash
-sudo apt install -y terminator htop apache2 xclip snapd chromium flameshot pngquant curl wget tree deluge
+sudo apt install -y terminator htop xclip snapd chromium flameshot pngquant curl wget tree deluge
 ```
 
 ### 5.1 Terminator Themes
