@@ -85,17 +85,28 @@ sudo apt install gnome-shell-extension-manager
 ```
 Open Extension Manager -> Browser. <br/>
 Search and install:
+- Blur my Shell
 - Clipboard Indicator
 - Coverflow Alt-Tab
 - GNOME Fuzzy App Search
 - Forge
+- AppIndicator and KStatusNotifierItem Support
 - Media Controls
-- Dash to Dock|
+- Dash to Dock  # similar OSx apps bar
+    - Hide the dock in overview # can combine with "Dash to Dock" extension
+- Dash to Panel # similar Windows system bar
+    - App Icons Taskbar # can combine with "Dash to Panel" extension
+    - ArcMenu # can combine with "Dash to Panel" extension
 - V-Shell (Vertial Workspaces)
+- User Themes
+  > Download themes from Gnome Look, like: https://www.gnome-look.org/p/1687249 and follow install instructions <br/>
+  > Dracula Theme for GTK full instructions: https://draculatheme.com/gtk
 - Search Light 
   > _needs: sudo apt install imagemagick_
 
-> Video with extensions configs: https://www.youtube.com/watch?v=IedxEbwpjfs
+> Videos with extensions configs: <br/>
+> https://www.youtube.com/watch?v=IedxEbwpjfs <br/>
+> https://www.youtube.com/watch?v=AE1-W2bMVEs
 
 ## 6. Install VPN Plugin
 ```bash
