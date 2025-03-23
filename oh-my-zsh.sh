@@ -25,6 +25,13 @@ else
     echo "zsh-syntax-highlighting already installed"
 fi
 
+if [ ! -d "$HOME/.oh-my-zsh/custom/plugins/zsh-completions" ]
+then
+    git clone https://github.com/zsh-users/zsh-completions.git $HOME/.oh-my-zsh/custom/plugins/zsh-completions
+else
+    echo "zsh-completions installed"
+fi
+
 if [ ! -d "$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions" ]
 then
     git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
