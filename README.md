@@ -62,7 +62,9 @@ and reboot your system.
 sudo apt install nvidia-driver firmware-misc-nonfree
 ```
 DKMS will build the nvidia module for your system, via the [nvidia-kernel-dkms](https://packages.debian.org/nvidia-kernel-dkms) package.
-* _Note about Secureboot:_ if you have [SecureBoot](https://wiki.debian.org/SecureBoot) enabled, you need to sign the resulting modules. Detailed instructions are available [here](https://wiki.debian.org/SecureBoot#Using_your_key_to_sign_modules).
+* _Note about Secureboot:_ if you have [SecureBoot](https://wiki.debian.org/SecureBoot) enabled, you need to sign the resulting modules. 
+  - Detailed instructions are available on Debian doc: [Using_your_key_to_sign_modules](https://wiki.debian.org/SecureBoot#Using_your_key_to_sign_modules).
+  - Or see [NVIDIA-MODULE-SIGNATURE.md](https://github.com/jrfernandodasilva/debian-12/blob/main/NVIDIA-MODULE-SIGNATURE.md) document instructions.
 
 2. **Restart** your system to load the new driver.
 
