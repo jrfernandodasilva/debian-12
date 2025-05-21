@@ -160,6 +160,7 @@ find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
 - Pinta via snapd - [Install Pinta on Debian](https://snapcraft.io/install/pinta/debian)
 - Postman via snapd - [Install Postman on Debian](https://snapcraft.io/install/postman/debian)
 - kubectl - [Install and Set Up kubectl on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux)
+- Spotify - [Spotify for Linux](https://www.spotify.com/de-en/download/linux)
 
 ### 9.1 Install bash-completion
 ```bash
