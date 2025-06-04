@@ -152,6 +152,7 @@ find /usr/share/nano/ -iname "*.nanorc" -exec echo include {} \; >> ~/.nanorc
 
 ## 9. Complementary softwares
 - Docker + Docker Compose - [Install instructions](https://docs.docker.com/engine/install/debian/#set-up-the-repository) - [Post install instructions](https://docs.docker.com/engine/install/linux-postinstall/)
+- Lazy Docker - [https://github.com/jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker)
 - VSCode - [Download page](https://code.visualstudio.com/download)
 - Discord - [Home to download](https://discord.com)
 - Skype - [Download page](https://www.skype.com/pt-br/get-skype/)
