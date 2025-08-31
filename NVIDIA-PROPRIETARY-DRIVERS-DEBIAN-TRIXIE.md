@@ -164,4 +164,4 @@ Depois, reinicie o sistema novamente.
 
 ---
 
-Se precisar de ajuda com algum erro específico ou configuração adicional, forneça mais detalhes sobre sua GPU ou problema!
+Debian doc: https://wiki.debian.org/NvidiaGraphicsDrivers
