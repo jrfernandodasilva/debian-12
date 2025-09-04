@@ -28,6 +28,8 @@ O repositório está organizado em pastas por versão do Debian, contendo docume
   - `install.md`: Guia passo a passo para instalação.
   - `config.md`: Instruções para configuração inicial e otimizações.
   - `README.md`: Informações específicas da versão 13.
+- **/Tips**: Dicas úteis para usuários do Debian.
+  - `Git.md`: Dicas e comandos úteis para configurar e utilizar o Git de forma eficiente.
 
 Mais versões serão adicionadas conforme novas releases do Debian forem lançadas.
 
@@ -36,6 +38,7 @@ Mais versões serão adicionadas conforme novas releases do Debian forem lançad
 1. **Escolha a versão do Debian**: Navegue até a pasta correspondente à versão que você está utilizando (ex.: `/Debian-12` ou `/Debian-13`).
 2. **Leia o README da versão**: Cada pasta contém um `README.md` com informações específicas e links para os guias detalhados.
 3. **Siga os guias**: Consulte os arquivos `install.md` para instruções de instalação e `config.md` para configurações e otimizações.
+4. **Consulte as dicas:** Acesse a pasta `/Tips` para encontrar dicas úteis, como configurações avançadas do Git.
 
 ## Contribuições
 
