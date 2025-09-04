@@ -28,10 +28,10 @@ git config --global color.ui auto
 ```
 
 ### Configure Line Ending Handling
-Prevent issues with line endings across different operating systems.
+Ensure consistent line endings across different operating systems (recommended for Linux/macOS).
 
 ```bash
-git config --global core.autocrlf false
+git config --global core.autocrlf input
 ```
 
 ### Enable Multiple Hotfixes (Git Flow)
@@ -123,7 +123,9 @@ git commit -m "Your commit message"
 Display the commit history with a graphical view.
 
 ```bash
-git log --graph --oneline --decorate --all
+git log --graph --oneline --decorate
+# or
+git log --graph --oneline --decorate --all  # Include all branches
 ```
 
 ### Create and Switch Branches
