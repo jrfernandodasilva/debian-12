@@ -24,7 +24,7 @@ O repositório está organizado em pastas por versão do Debian, contendo docume
   - `install.md`: Guia passo a passo para instalação.
   - `config.md`: Instruções para configuração inicial e otimizações.
   - `README.md`: Informações específicas da versão 12.
-- **/Debian-13**: Documentações para o Debian 13 (Trixie, em desenvolvimento).
+- **/Debian-13**: Documentações para o Debian 13 (Trixie).
   - `install.md`: Guia passo a passo para instalação.
   - `config.md`: Instruções para configuração inicial e otimizações.
   - `README.md`: Informações específicas da versão 13.
