@@ -36,3 +36,37 @@ Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 
 ## 3. Install NVIDIA driver
 See [NVIDIA-DRIVER-INSTALLATION.md](https://github.com/jrfernandodasilva/debian-guide/blob/main/Debian-13/NVIDIA-DRIVER-INSTALLATION.md) document instructions.
+
+## 4. Atualizar Firefox ESR
+
+1. **Baixar o Firefox ESR**  
+   Acesse [https://www.firefox.com/pt-BR/download/all/desktop-esr/](https://www.firefox.com/pt-BR/download/all/desktop-esr/), selecione "Português (Brasil)" e baixe o arquivo `.tar.bz2` para Linux 64 bits.
+
+2. **Descomprimir e substituir**  
+   Extraia o arquivo e substitua a pasta `/lib/firefox-esr`:  
+   ```sh
+   cd ~/Downloads
+   tar -xjf firefox-*.tar.bz2
+   sudo rm -rf /lib/firefox-esr
+   sudo mv firefox /lib/firefox-esr
+   ```
+
+3. **Criar atalho**  
+   Crie um link simbólico `firefox-esr` para `firefox`:  
+   ```sh
+   cd /lib/firefox-esr
+   sudo ln -s firefox firefox-esr
+   sudo ln -s /usr/share/firefox-esr/distribution distribution
+   ```
+
+4. **Verificar**  
+   Teste a instalação:  
+   ```sh
+   firefox-esr --version
+   ```
+
+## Conclusão  
+O Firefox ESR foi atualizado em `/lib/firefox-esr` e pode ser iniciado com o comando `firefox`.
+
+## Fontes  
+- [Download do Firefox ESR](https://www.firefox.com/pt-BR/download/all/desktop-esr/)
