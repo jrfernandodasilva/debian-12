@@ -164,4 +164,4 @@ Depois, reinicie o sistema novamente.
 
 ---
 
-Debian doc: https://wiki.debian.org/NvidiaGraphicsDrivers
+Debian doc: https://wiki.debian.org/NvidiaGraphicsDrivers#Debian_13_.22Trixie.22
