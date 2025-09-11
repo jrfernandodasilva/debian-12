@@ -54,7 +54,7 @@ sudo apt install nvidia-driver firmware-misc-nonfree
 DKMS will build the nvidia module for your system, via the [nvidia-kernel-dkms](https://packages.debian.org/nvidia-kernel-dkms) package.
 * _Note about Secureboot:_ if you have [SecureBoot](https://wiki.debian.org/SecureBoot) enabled, you need to sign the resulting modules. 
   - Detailed instructions are available on Debian doc: [Using_your_key_to_sign_modules](https://wiki.debian.org/SecureBoot#Using_your_key_to_sign_modules).
-  - Or see [NVIDIA-MODULE-SIGNATURE.md](https://github.com/jrfernandodasilva/debian-12/blob/main/NVIDIA-MODULE-SIGNATURE.md) document instructions.
+  - Or see [NVIDIA-MODULE-SIGNATURE.md](https://github.com/jrfernandodasilva/debian-guide/blob/main/Debian-12/NVIDIA-MODULE-SIGNATURE.md) document instructions.
 
 2. **Restart** your system to load the new driver.
 
@@ -189,7 +189,7 @@ Access chrome flags with this url [chrome://flags/](chrome://flags/) and enable 
 - GPU rasterization
 - Overscroll history navigation
 - Preferred Ozone platform (set `Wayland`)
-![image](https://github.com/jrfernandodasilva/debian-12/assets/27747005/077bdec7-3bc2-41cd-96d5-df7f6a06df30)
+![image](https://github.com/jrfernandodasilva/debian-guide/assets/27747005/077bdec7-3bc2-41cd-96d5-df7f6a06df30)
 
 Run this commant to force enable `Overscroll history navigation`:
 ```bash
@@ -267,7 +267,7 @@ plugins=(
 #### Install fonts by script:
 ```bash
 cd /tmp
-curl -LO https://raw.githubusercontent.com/jrfernandodasilva/debian-12/main/oh-my-zsh.sh
+curl -LO https://raw.githubusercontent.com/jrfernandodasilva/debian-guide/main/Debian-12/oh-my-zsh.sh
 chmod +x oh-my-zsh.sh 
  ./oh-my-zsh.sh  
 ```
@@ -300,9 +300,9 @@ to load new config.
 
 #### See
 
-- [.zshrc](https://github.com/jrfernandodasilva/debian-12/blob/main/.zshrc) file example
-- [.p10k.zsh](https://github.com/jrfernandodasilva/debian-12/blob/main/.p10k.zsh) file example
-- [.p10k.zsh_v1](https://github.com/jrfernandodasilva/debian-12/blob/main/.p10k.zsh_v1) file example
+- [.zshrc](https://github.com/jrfernandodasilva/debian-guide/blob/main/Debian-12/.zshrc) file example
+- [.p10k.zsh](https://github.com/jrfernandodasilva/debian-guide/blob/main/Debian-12/.p10k.zsh) file example
+- [.p10k.zsh_v1](https://github.com/jrfernandodasilva/debian-guide/blob/main/Debian-12/.p10k.zsh_v1) file example
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k) repository
 - [Medium Tutorial](https://medium.com/opensanca/personalizando-o-terminal-com-powerlevel10k-6c2609360a55)
 - [Config files](https://gist.github.com/andrelugomes/29096774a35c7d9d4d787e1583aaafad#file-p10k-zsh) example
