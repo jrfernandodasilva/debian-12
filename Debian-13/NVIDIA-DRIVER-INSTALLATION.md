@@ -121,9 +121,7 @@ echo 'options nvidia NVreg_PreserveVideoMemoryAllocations=1' > /etc/modprobe.d/n
 Para garantir que todos os aplicativos gráficos usem a GPU NVIDIA por padrão, adicione as seguintes linhas ao arquivo `~/.bashrc`:
 
 ```sh
-# Set NVIDIA as default for all graphic apps
-export __GLX_VENDOR_LIBRARY_NAME="nvidia"
-export __EGL_VENDOR_LIBRARY_NAME="nvidia_icd"
+echo -e "\n\n# Set NVIDIA as default for all graphic apps\nexport __GLX_VENDOR_LIBRARY_NAME=\"nvidia\"\nexport __EGL_VENDOR_LIBRARY_NAME=\"nvidia_icd\"" >> ~/.bashrc
 ```
 
 Após adicionar essas linhas, recarregue o arquivo `~/.bashrc` para aplicar as alterações:
