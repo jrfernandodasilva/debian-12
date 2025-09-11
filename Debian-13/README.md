@@ -64,9 +64,3 @@ See [NVIDIA-DRIVER-INSTALLATION.md](https://github.com/jrfernandodasilva/debian-
    ```sh
    firefox-esr --version
    ```
-
-## Conclusão  
-O Firefox ESR foi atualizado em `/lib/firefox-esr` e pode ser iniciado com o comando `firefox`.
-
-## Fontes  
-- [Download do Firefox ESR](https://www.firefox.com/pt-BR/download/all/desktop-esr/)
