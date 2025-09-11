@@ -132,6 +132,26 @@ Após adicionar essas linhas, recarregue o arquivo `~/.bashrc` para aplicar as a
 source ~/.bashrc
 ```
 
+## Para forçar a NVIDIA como GPU primária
+```sh
+sudo nano /etc/X11/xorg.conf.d/nvidia_as_primary.conf
+```
+
+Adicione:
+```sh
+Section "OutputClass"
+    Identifier "nvidia"
+    MatchDriver "nvidia-drm"
+    Driver "nvidia"
+    Option "PrimaryGPU" "yes"
+EndSection
+```
+
+Reinicie:
+```
+sudo reboot
+```
+
 ## Verificação da Configuração
 
 Para confirmar que os drivers NVIDIA estão configurados e funcionando corretamente, execute os seguintes comandos:
